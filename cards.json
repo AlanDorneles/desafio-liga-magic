@@ -1,0 +1,23 @@
+{
+    "cards": [
+      {
+        "nome": "Contramágica",
+        "name_english": "Counterspell",
+        "numero_serie": "#045",
+        "colecao": "Dominaria Remastered",
+        "acronimo": "C",
+        "detalhe": {
+          "cor": "Azul",
+          "custo_de_mana": 2,
+          "tipo": "Mágica Instantânea"
+        },
+        "path":["https://raw.githubusercontent.com/AlanDorneles/images/main/card_counterspell.png","https://raw.githubusercontent.com/AlanDorneles/images/main/Card_Carroussel1.png","https://raw.githubusercontent.com/AlanDorneles/images/main/Card_Carroussel2.png","https://raw.githubusercontent.com/AlanDorneles/images/main/Card_Carroussel2.png","https://raw.githubusercontent.com/AlanDorneles/images/main/Card_Carroussel2.png","https://raw.githubusercontent.com/AlanDorneles/images/main/Card_Carroussel2.png"],
+        "preco": {
+          "type": "Real",
+          "menor_preco":  6.28,
+          "medio_preco": 9.39,
+          "maior_preco": 14.00
+        }
+      } 
+    ]
+  }

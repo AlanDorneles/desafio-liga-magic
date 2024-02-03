@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Liga Magic</title>
+  
+    
+  </head>
+  <body>
+   
+    <main id="page">
+      <section class="card-visualization">
+        <div class="container-img-card">
+          <img src="" alt="" class="img-card">
+        </div>
+        <div class="container-carousel" id="carousel">
+          <button id="before-img">
+
+          <span>
+            <img src="./img/icons/arrow_left.svg" alt="arrow_left" />
+          </span>
+        </button>
+          <div class="container-img-carousel">
+          </div>
+          <button id="after-img">
+          <span
+            ><img src="./img/icons/arrow_right.svg" alt="arrow_right"
+          /></span>
+          </button>
+        </div>
+      </section>
+      <section class="informations">
+        <div class="breadcrumb">
+          <span
+            ><p><a href="/" class="text-secondary">Home |</a></p></span
+          >
+          <span
+            ><p><a href="/" class="text-secondary">Magic: The Gatering |</a></p></span
+          >
+          <span
+            ><p><a href="/" class="text-secondary">Busca |</a></p></span
+          >
+          <span
+            ><p><a href="/" class="text-secondary">Bazar |</a></p></span
+          >
+          <span
+            ><p><a href="/" class="text-secondary">Lista de Desejos</a></p></span
+          >
+        </div>
+        <div class="type-card">
+          <div>
+            <span class="type"></span>
+            <span class="number-card"></span>
+            <span class="collection"></span>
+          </div>
+          <div class="type-collection">
+            <span class="collection-acronym">DMR</span>
+            <span><img src="./img/icons/arrow_drop_down.svg" alt="arrow_drop_down"></span>
+          </div>
+        </div>
+        <div class="name-card">
+          <div class="name">
+            <h2 class="name-card-title"></h2>
+            <span class="text-secondary"><i class="name-card-title-en"></i></span>
+          </div>
+          <div class="actions-product">
+            <span class="span-favorite">
+              <img src="./img/icons/favorite.svg" alt="" class="text-secondary favorite-icon"/>
+            </span>
+            <button class="button-ellipsis">
+              <span class="ellipsis">
+                <p class="see-all letter">. . .</p>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="purchase-list">
+            <div class="title-purchase">
+          <h2 class="text-title-1">Lista de compras</h2>
+          <button class="button-help">
+            <span>
+                <img src="./img/icons/help.svg" alt="help">
+            </span>
+          </button>
+         
+        </div>
+        <p class="text-secondary">Add a carta aqui e deixe que a Liga calcule o melhor preço para você!</p>
+        <div class="buy-actions">
+          <div class="container-input-quantity">
+            <input type="number" name="quantity-item" id="quantity-item" value="1">
+            <button class="button-add">+</button>
+            <button class="button-subtract">-</button>
+          </div>
+          <button class="button-tune">
+            <span>
+              <img src="./img/icons/tune.svg" alt="tune" class="svg-plus">
+            </span>
+          </button>
+            <button class="add-list"><span class="label-add">
+              <img src="./img/icons/add_box.svg" alt="add-box-icon">
+              <p>ADICIONAR NA LISTA</p>
+
+            </span>
+          <span></span> </button>
+        </div>
+        
+        </div>
+        <div class="details">
+              <div class="details-label">
+                <h3>Detalhes da Carta</h3>
+                <a href="/" class="see-all">Ver tudo</a>
+              </div>
+              <div class="items">
+                <div class="item bg-secondary">
+                    <p class="text-secondary">Cor</p>
+                    <p class="card-color"></p>
+                </div>
+                <div class="item bg-secondary">
+                    <p class="text-secondary">Custo de mana</p>
+                    <div class="container-mana">
+                    </div>
+                </div>
+                <div class="item bg-secondary">
+                    <p class="text-secondary">Tipo</p>
+                    <p class="type-card-m"></p>
+                </div>
+              </div>
+        </div>
+
+        <div class="average-price">
+            <div class="details-label">
+              <div>
+              <div class="title-average-marketplace">
+              <h3>Preço médio no marketplace</h3>
+              <button class="help-average-marketplace">
+                <span>
+                  <img src="./img/icons/help.svg" alt="help">
+                </span>
+              </button>
+            </div>
+              </div>
+              <a href="/" class="see-all">Ver tudo</a>
+            </div>
+            </div>
+            <div class="prices bg-secondary item">
+                <div class="label ">
+                  <span class="type-acronym">N</span>
+                  <p class="text-secondary">Normal</p>
+                </div>
+            <div class="container-prices">
+              <span class="min-price-span"></span>
+                <p class="min-price"></p>
+                <span class="mid-price-span"></span>
+
+                <p class="mid-price"></p>
+                <span class="max-price-span"></span>
+                <p class="max-price"></p>
+            </div>
+            </div>
+
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js" type="module"></script>
+   
+  </body>
+</html>

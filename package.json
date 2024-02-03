@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "json-server --watch cards.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "lowdb": "^7.0.1"
+  }
+}
